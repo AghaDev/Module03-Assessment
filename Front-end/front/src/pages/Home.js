@@ -26,6 +26,15 @@ const [article, setArticle] = useState([]);
         <div className='title'>
         {item.title}
         </div>
+        <div className='category'>
+          {item.category}
+        </div>
+        <div className='body'>
+          {item.body}
+        </div>
+        <div className='author'>
+          {item.author}
+        </div>
       </div>
       <div className='image'>
 
